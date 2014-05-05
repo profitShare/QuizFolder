@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BF8A7101917C08D00807F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8A70F1917C08D00807F66 /* Foundation.framework */; };
+		9BF8A7121917C08D00807F66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8A7111917C08D00807F66 /* CoreGraphics.framework */; };
+		9BF8A7141917C08D00807F66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8A7131917C08D00807F66 /* UIKit.framework */; };
+		9BF8A71A1917C08D00807F66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8A7181917C08D00807F66 /* InfoPlist.strings */; };
+		9BF8A71C1917C08D00807F66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A71B1917C08D00807F66 /* main.m */; };
+		9BF8A7201917C08D00807F66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A71F1917C08D00807F66 /* AppDelegate.m */; };
+		9BF8A7231917C08D00807F66 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8A7211917C08D00807F66 /* Main_iPhone.storyboard */; };
+		9BF8A7261917C08D00807F66 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8A7241917C08D00807F66 /* Main_iPad.storyboard */; };
+		9BF8A7291917C08D00807F66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A7281917C08D00807F66 /* ViewController.m */; };
+		9BF8A72B1917C08D00807F66 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8A72A1917C08D00807F66 /* Images.xcassets */; };
+		9BF8A7321917C08D00807F66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8A7311917C08D00807F66 /* XCTest.framework */; };
+		9BF8A7331917C08D00807F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8A70F1917C08D00807F66 /* Foundation.framework */; };
+		9BF8A7341917C08D00807F66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF8A7131917C08D00807F66 /* UIKit.framework */; };
+		9BF8A73C1917C08D00807F66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BF8A73A1917C08D00807F66 /* InfoPlist.strings */; };
+		9BF8A73E1917C08D00807F66 /* LernQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF8A73D1917C08D00807F66 /* LernQuizTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF8A7351917C08D00807F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF8A7041917C08D00807F66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF8A70B1917C08D00807F66;
+			remoteInfo = LernQuiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BF8A70C1917C08D00807F66 /* LernQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LernQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF8A70F1917C08D00807F66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9BF8A7111917C08D00807F66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9BF8A7131917C08D00807F66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9BF8A7171917C08D00807F66 /* LernQuiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LernQuiz-Info.plist"; sourceTree = "<group>"; };
+		9BF8A7191917C08D00807F66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BF8A71B1917C08D00807F66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BF8A71D1917C08D00807F66 /* LernQuiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LernQuiz-Prefix.pch"; sourceTree = "<group>"; };
+		9BF8A71E1917C08D00807F66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BF8A71F1917C08D00807F66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BF8A7221917C08D00807F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9BF8A7251917C08D00807F66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		9BF8A7271917C08D00807F66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BF8A7281917C08D00807F66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BF8A72A1917C08D00807F66 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9BF8A7301917C08D00807F66 /* LernQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LernQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF8A7311917C08D00807F66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9BF8A7391917C08D00807F66 /* LernQuizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LernQuizTests-Info.plist"; sourceTree = "<group>"; };
+		9BF8A73B1917C08D00807F66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9BF8A73D1917C08D00807F66 /* LernQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LernQuizTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF8A7091917C08D00807F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8A7121917C08D00807F66 /* CoreGraphics.framework in Frameworks */,
+				9BF8A7141917C08D00807F66 /* UIKit.framework in Frameworks */,
+				9BF8A7101917C08D00807F66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF8A72D1917C08D00807F66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8A7321917C08D00807F66 /* XCTest.framework in Frameworks */,
+				9BF8A7341917C08D00807F66 /* UIKit.framework in Frameworks */,
+				9BF8A7331917C08D00807F66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF8A7031917C08D00807F66 = {
+			isa = PBXGroup;
+			children = (
+				9BF8A7151917C08D00807F66 /* LernQuiz */,
+				9BF8A7371917C08D00807F66 /* LernQuizTests */,
+				9BF8A70E1917C08D00807F66 /* Frameworks */,
+				9BF8A70D1917C08D00807F66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF8A70D1917C08D00807F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8A70C1917C08D00807F66 /* LernQuiz.app */,
+				9BF8A7301917C08D00807F66 /* LernQuizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF8A70E1917C08D00807F66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8A70F1917C08D00807F66 /* Foundation.framework */,
+				9BF8A7111917C08D00807F66 /* CoreGraphics.framework */,
+				9BF8A7131917C08D00807F66 /* UIKit.framework */,
+				9BF8A7311917C08D00807F66 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BF8A7151917C08D00807F66 /* LernQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8A71E1917C08D00807F66 /* AppDelegate.h */,
+				9BF8A71F1917C08D00807F66 /* AppDelegate.m */,
+				9BF8A7211917C08D00807F66 /* Main_iPhone.storyboard */,
+				9BF8A7241917C08D00807F66 /* Main_iPad.storyboard */,
+				9BF8A7271917C08D00807F66 /* ViewController.h */,
+				9BF8A7281917C08D00807F66 /* ViewController.m */,
+				9BF8A72A1917C08D00807F66 /* Images.xcassets */,
+				9BF8A7161917C08D00807F66 /* Supporting Files */,
+			);
+			path = LernQuiz;
+			sourceTree = "<group>";
+		};
+		9BF8A7161917C08D00807F66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8A7171917C08D00807F66 /* LernQuiz-Info.plist */,
+				9BF8A7181917C08D00807F66 /* InfoPlist.strings */,
+				9BF8A71B1917C08D00807F66 /* main.m */,
+				9BF8A71D1917C08D00807F66 /* LernQuiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BF8A7371917C08D00807F66 /* LernQuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8A73D1917C08D00807F66 /* LernQuizTests.m */,
+				9BF8A7381917C08D00807F66 /* Supporting Files */,
+			);
+			path = LernQuizTests;
+			sourceTree = "<group>";
+		};
+		9BF8A7381917C08D00807F66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BF8A7391917C08D00807F66 /* LernQuizTests-Info.plist */,
+				9BF8A73A1917C08D00807F66 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF8A70B1917C08D00807F66 /* LernQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF8A7411917C08D00807F66 /* Build configuration list for PBXNativeTarget "LernQuiz" */;
+			buildPhases = (
+				9BF8A7081917C08D00807F66 /* Sources */,
+				9BF8A7091917C08D00807F66 /* Frameworks */,
+				9BF8A70A1917C08D00807F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LernQuiz;
+			productName = LernQuiz;
+			productReference = 9BF8A70C1917C08D00807F66 /* LernQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF8A72F1917C08D00807F66 /* LernQuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF8A7441917C08D00807F66 /* Build configuration list for PBXNativeTarget "LernQuizTests" */;
+			buildPhases = (
+				9BF8A72C1917C08D00807F66 /* Sources */,
+				9BF8A72D1917C08D00807F66 /* Frameworks */,
+				9BF8A72E1917C08D00807F66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF8A7361917C08D00807F66 /* PBXTargetDependency */,
+			);
+			name = LernQuizTests;
+			productName = LernQuizTests;
+			productReference = 9BF8A7301917C08D00807F66 /* LernQuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF8A7041917C08D00807F66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = TommyLarsWassilij;
+				TargetAttributes = {
+					9BF8A72F1917C08D00807F66 = {
+						TestTargetID = 9BF8A70B1917C08D00807F66;
+					};
+				};
+			};
+			buildConfigurationList = 9BF8A7071917C08D00807F66 /* Build configuration list for PBXProject "LernQuiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF8A7031917C08D00807F66;
+			productRefGroup = 9BF8A70D1917C08D00807F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF8A70B1917C08D00807F66 /* LernQuiz */,
+				9BF8A72F1917C08D00807F66 /* LernQuizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF8A70A1917C08D00807F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8A7261917C08D00807F66 /* Main_iPad.storyboard in Resources */,
+				9BF8A72B1917C08D00807F66 /* Images.xcassets in Resources */,
+				9BF8A7231917C08D00807F66 /* Main_iPhone.storyboard in Resources */,
+				9BF8A71A1917C08D00807F66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF8A72E1917C08D00807F66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8A73C1917C08D00807F66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF8A7081917C08D00807F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8A7291917C08D00807F66 /* ViewController.m in Sources */,
+				9BF8A7201917C08D00807F66 /* AppDelegate.m in Sources */,
+				9BF8A71C1917C08D00807F66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF8A72C1917C08D00807F66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF8A73E1917C08D00807F66 /* LernQuizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF8A7361917C08D00807F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF8A70B1917C08D00807F66 /* LernQuiz */;
+			targetProxy = 9BF8A7351917C08D00807F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF8A7181917C08D00807F66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF8A7191917C08D00807F66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9BF8A7211917C08D00807F66 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF8A7221917C08D00807F66 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		9BF8A7241917C08D00807F66 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF8A7251917C08D00807F66 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		9BF8A73A1917C08D00807F66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF8A73B1917C08D00807F66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF8A73F1917C08D00807F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BF8A7401917C08D00807F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BF8A7421917C08D00807F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LernQuiz/LernQuiz-Prefix.pch";
+				INFOPLIST_FILE = "LernQuiz/LernQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9BF8A7431917C08D00807F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LernQuiz/LernQuiz-Prefix.pch";
+				INFOPLIST_FILE = "LernQuiz/LernQuiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9BF8A7451917C08D00807F66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LernQuiz.app/LernQuiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LernQuiz/LernQuiz-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LernQuizTests/LernQuizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9BF8A7461917C08D00807F66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LernQuiz.app/LernQuiz";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LernQuiz/LernQuiz-Prefix.pch";
+				INFOPLIST_FILE = "LernQuizTests/LernQuizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF8A7071917C08D00807F66 /* Build configuration list for PBXProject "LernQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF8A73F1917C08D00807F66 /* Debug */,
+				9BF8A7401917C08D00807F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF8A7411917C08D00807F66 /* Build configuration list for PBXNativeTarget "LernQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF8A7421917C08D00807F66 /* Debug */,
+				9BF8A7431917C08D00807F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9BF8A7441917C08D00807F66 /* Build configuration list for PBXNativeTarget "LernQuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF8A7451917C08D00807F66 /* Debug */,
+				9BF8A7461917C08D00807F66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF8A7041917C08D00807F66 /* Project object */;
+}
